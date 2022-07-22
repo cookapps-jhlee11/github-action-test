@@ -6,7 +6,7 @@ jobs:
   checkout:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.0.2
         with: 
           repository: actions/checkout
           ref: v3
